@@ -87,7 +87,7 @@ int main()
     std::cin >> m;
     std::cin >> n;
     std::cout << a.substr(m, n + 1) << std::endl;
-    // 9
+    // 9 задание
     std::string b;
     std::cout << "Enter the word" << std::endl;
     std::cin >> b;
