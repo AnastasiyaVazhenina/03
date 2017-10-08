@@ -87,7 +87,7 @@ int main()
     std::cin >> m;
     std::cin >> n;
     std::cout << a.substr(m, n + 1) << std::endl;
-    // 9 задание
+    // 9
     std::string b;
     std::cout << "Enter the word" << std::endl;
     std::cin >> b;
@@ -105,15 +105,15 @@ int main()
     std::string phrase;
     std::cout << "Enter the sentence" << std::endl;
     std::cin >> phrase;
-    char p[phrase.length()];
+    std::size_t k = phrase.size();
     int j = 0;
     for (int i = 0; i < phrase.length(); ++i)
     {
-        if (p[i] == 'a')
+        if (phrase[i] == 'a')
         {
             j += 1;
         }
     }
-    std::cout << j << std::endl;
+    std::cout << (static_cast<float>(j) / k) * 100 << "%" << std::endl;
     return 0;
 }
