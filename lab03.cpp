@@ -19,7 +19,8 @@ std::vector<T> generate_random_vector(std::size_t num, T min = -10, T max = 10)
 }
 
 int main()
-{ // 1
+{
+    // 1
     std::vector<double> v = generate_random_vector<double>(10, -10, 10);
     for (int i = 0; i < 10; ++i)
     {
