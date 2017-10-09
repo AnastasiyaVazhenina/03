@@ -5,6 +5,7 @@
 #include <random>
 #include <string>
 #include <vector>
+
 template<class T>
 std::vector<T> generate_random_vector(std::size_t num, T min = -10, T max = 10)
 {
