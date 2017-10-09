@@ -280,7 +280,7 @@ int main()
     std::cin >> c;
     while (y.find("can") != std::string::npos)
     {
-        size_t index = y.find ("can");
+        size_t index = y.find("can");
         y.replace(index + 1, 3, c);
     }
     std::cout << y << std::endl;
